@@ -5,7 +5,7 @@
 //int main()
 //{
 //	char arr[20];
-//	system("shutdow -s -t 60");
+//	system("shutdown -s -t 60");
 //	again:
 //	printf("SOS!!!\n");
 //	printf("电脑将在60秒后关机\n");
@@ -13,7 +13,7 @@
 //	scanf("%s", arr);
 //	if (strcmp(arr, "cancle"))
 //	{
-//		system("shutdow -a");
+//		system("shutdown -a");
 //	}
 //	else
 //	{
@@ -28,13 +28,13 @@
 //int main()
 //{
 //	char arr[20];
-//	system("shutdow -s -s 60");
+//	system("shutdown -s -s 60");
 //	again:
 //	printf("电脑将在60秒后关机,若想取消，请输入cancle\n");
 //	scanf("%s", arr);
 //	if (strcmp(arr, "cancle") == 0)
 //	{
-//		system("shutdow -a");
+//		system("shutdown -a");
 //	}
 //	else
 //	{
