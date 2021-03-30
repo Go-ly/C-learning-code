@@ -35,19 +35,41 @@
 
 
 //写一个函数使用递归求数组长度,不再定义临时变量
+//#include<stdio.h>
+//int len(char* str)
+//{
+//	if (*str != '\0')
+//	{
+//		return 1 + len(str + 1);
+//	}
+//	else
+//		return 0;
+//}
+//int main()
+//{
+//	char arr[] = "hello!";
+//	int l = len(arr);
+//	printf("数组长度为%d\n", l);
+//}
+
+
+//使用递归求阶乘
 #include<stdio.h>
-int len(char* str)
+int H(int x)
 {
-	if (*str != '\0')
+
+	if (x == 1)
 	{
-		return 1 + len(str + 1);
+		return 1;
 	}
 	else
-		return 0;
+	   return x*H(x-1);
 }
 int main()
 {
-	char arr[] = "hello!";
-	int l = len(arr);
-	printf("数组长度为%d\n", l);
+	int a;
+	int ret;
+	scanf("%d", &a);
+	ret = H(a);
+	printf("%d\n", ret);
 }
