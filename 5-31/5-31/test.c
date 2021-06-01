@@ -100,7 +100,7 @@ void test3()
 	//{
 	//	printf("%d ", p->age);
 	//}
-	printf("%d ", s[2].age);
+	printf("%s ", s[2].name);
 }
 void test2()
 {
