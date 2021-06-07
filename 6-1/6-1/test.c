@@ -38,8 +38,13 @@ void bubble_sort(void* arr, int sz, int width, int(*cmp)(void* e1, void* e2))
 }
 int main()
 {
-	int arr[] = { 10,9,8,7,6,5,4,3,2,1 };
-	int sz = sizeof(arr) / sizeof(arr[0]);
-	bubble_sort(arr, sz, sizeof(arr[0]), cmp);
+	int arr[] = { 10,9,8,7,6,5,4,3,2,1 };     //定义整型数组并初始化
+	int sz = sizeof(arr) / sizeof(arr[0]);    //计算数组长度
+	int i = 0;
+	bubble_sort(arr, sz, sizeof(arr[0]), cmp);    //模拟qsort函数实现冒泡排序
+	for (i = 0; i < sz; i++)                   
+	{
+		printf("%d ", arr[i]);                     //排序完后对数组进行打印，验证排序是否成功
+	}
 }
 
