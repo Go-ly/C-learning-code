@@ -45,9 +45,10 @@ int main()
 {
 	enum sex
 	{
-		male,
-		female,
-		secret
+		male=2,
+		female=5,
+		secret=4
 	}s;
-	printf("%d\n", sizeof( s));
+	
+	printf("%d\n", s);
 }

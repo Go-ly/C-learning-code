@@ -1,2 +1,2 @@
 ﻿  test.c
-  6-11.vcxproj -> E:\C-learning-code\6-11\Debug\6-11.exe
+E:\C-learning-code\6-11\6-11\test.c(53): error C4700: 使用了未初始化的局部变量“s”
