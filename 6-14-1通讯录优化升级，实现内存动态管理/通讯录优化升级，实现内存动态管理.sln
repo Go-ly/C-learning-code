@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "通讯录优化升级，实现内存动态管理", "通讯录优化升级，实现内存动态管理\通讯录优化升级，实现内存动态管理.vcxproj", "{D2EF1A6E-DB62-452C-8EF3-2CA33B53D36C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2EF1A6E-DB62-452C-8EF3-2CA33B53D36C}.Debug|x64.ActiveCfg = Debug|x64
+		{D2EF1A6E-DB62-452C-8EF3-2CA33B53D36C}.Debug|x64.Build.0 = Debug|x64
+		{D2EF1A6E-DB62-452C-8EF3-2CA33B53D36C}.Debug|x86.ActiveCfg = Debug|Win32
+		{D2EF1A6E-DB62-452C-8EF3-2CA33B53D36C}.Debug|x86.Build.0 = Debug|Win32
+		{D2EF1A6E-DB62-452C-8EF3-2CA33B53D36C}.Release|x64.ActiveCfg = Release|x64
+		{D2EF1A6E-DB62-452C-8EF3-2CA33B53D36C}.Release|x64.Build.0 = Release|x64
+		{D2EF1A6E-DB62-452C-8EF3-2CA33B53D36C}.Release|x86.ActiveCfg = Release|Win32
+		{D2EF1A6E-DB62-452C-8EF3-2CA33B53D36C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40141548-CAD5-4BAE-AEE7-177CAA6EAD42}
+	EndGlobalSection
+EndGlobal
