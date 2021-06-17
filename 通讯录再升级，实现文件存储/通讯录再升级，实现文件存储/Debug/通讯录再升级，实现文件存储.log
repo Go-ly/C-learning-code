@@ -1,9 +1,0 @@
-﻿  function.c
-E:\C-learning-code\通讯录再升级，实现文件存储\通讯录再升级，实现文件存储\function.c(253,45): warning C4047: “函数”:“const char *”与“int”的间接级别不同
-E:\C-learning-code\通讯录再升级，实现文件存储\通讯录再升级，实现文件存储\function.c(253,40): warning C4024: “strcmp”: 形参和实参 1 的类型不同
-E:\C-learning-code\通讯录再升级，实现文件存储\通讯录再升级，实现文件存储\function.c(253,73): warning C4047: “函数”:“const char *”与“int”的间接级别不同
-E:\C-learning-code\通讯录再升级，实现文件存储\通讯录再升级，实现文件存储\function.c(253,68): warning C4024: “strcmp”: 形参和实参 2 的类型不同
-  test.c
-E:\C-learning-code\通讯录再升级，实现文件存储\通讯录再升级，实现文件存储\test.c(12,8): warning C4013: “menu1”未定义；假设外部返回 int
-  正在生成代码...
-  通讯录再升级，实现文件存储.vcxproj -> E:\C-learning-code\通讯录再升级，实现文件存储\Debug\通讯录再升级，实现文件存储.exe
