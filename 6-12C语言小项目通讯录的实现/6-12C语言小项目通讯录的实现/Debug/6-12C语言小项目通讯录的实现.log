@@ -1,2 +1,9 @@
-﻿  test.c
-E:\C-learning-code\6-12C语言小项目通讯录的实现\6-12C语言小项目通讯录的实现\test.c(12,8): warning C4013: “menu1”未定义；假设外部返回 int
+﻿  function.c
+E:\代码\C-learning-code\6-12C语言小项目通讯录的实现\6-12C语言小项目通讯录的实现\function.c(182,45): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+E:\代码\C-learning-code\6-12C语言小项目通讯录的实现\6-12C语言小项目通讯录的实现\function.c(182,40): warning C4024: “strcmp”: 形参和实参 1 的类型不同
+E:\代码\C-learning-code\6-12C语言小项目通讯录的实现\6-12C语言小项目通讯录的实现\function.c(182,73): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+E:\代码\C-learning-code\6-12C语言小项目通讯录的实现\6-12C语言小项目通讯录的实现\function.c(182,68): warning C4024: “strcmp”: 形参和实参 2 的类型不同
+  test.c
+E:\代码\C-learning-code\6-12C语言小项目通讯录的实现\6-12C语言小项目通讯录的实现\test.c(12,8): warning C4013: “menu1”未定义；假设外部返回 int
+  正在生成代码...
+  6-12C语言小项目通讯录的实现.vcxproj -> E:\代码\C-learning-code\6-12C语言小项目通讯录的实现\Debug\6-12C语言小项目通讯录的实现.exe

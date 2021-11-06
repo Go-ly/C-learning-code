@@ -53,28 +53,6 @@ void Check_Cap(struct contact* ps)
 
 void Add(struct contact* ps)
 {
-	//if ((ps->size) == MAX)
-	//{
-	//	printf("通讯录已满，无法增加成员\n");
-	//}
-	//else
-	//{
-	//	printf("请输入所要增加的成员信息\n");
-	//	printf("姓名:>");
-	//	scanf("%s", ps->data[ps->size].name);
-	//	printf("性别:>");
-	//	scanf("%s", ps->data[ps->size].sex);
-	//	printf("年龄:>");
-	//	scanf("%d",&(ps->data[ps->size].age));
-	//	printf("电话:>");
-	//	scanf("%s",ps->data[ps->size].tel);
-	//	printf("地址:>");
-	//	scanf("%s", ps->data[ps->size].addr);
-	//	printf("添加成功\n");
-	//	ps->size++;    //通讯录成员数量增加1
-	//}
-
-
      //检测当前通讯录的成员量与容量      
 	//若满了，就扩容。没满就不进行操作
 	Check_Cap(ps);
